@@ -1,0 +1,16 @@
+#sidebar {
+  text-align: center;
+}
+.dark {
+    padding: 15px;
+   /*  background: rgb(54, 143, 170); */
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* text-align: center; */
+  }
+
+.contact-info {
+    margin: auto;
+    text-align: center;
+ }
