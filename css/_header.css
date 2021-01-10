@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Lobster&family=Raleway:wght@100;300&display=swap');
+body, html {
+    margin:0;
+    padding:0;
+}
+
+header {
+    width:100%;
+    height: 70px;
+    /* background-color: grey; */
+}
+
+ul {
+    width: auto;
+    float:center;
+    margin-top:8px;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding: 15px 15px;
+    
+}
+
+a{
+    text-align: center;
+    color: rgb(112, 3, 3);
+    text-decoration:none;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 3.0vw;
+    
+}
+
+a:hover {
+    color:#F0c330;
+    transition:0.5s;
+    
+}

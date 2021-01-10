@@ -1,0 +1,85 @@
+.banner-img img {
+    width: 100%;
+    height:100%;
+    margin-top:50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-img img {
+    margin-top:50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+.text {
+    margin: 10px 150px;
+    text-align: center;
+    color: #000
+}
+
+/*Footer*/
+
+.footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer li {
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+.footer li a {
+    color: rgb(51, 44, 112);
+    text-decoration: none;
+    font-size: 40px;
+    transition: all ease-in-out 250ms;    
+}
+
+.footer li a:hover {
+    color:rgb(16, 16, 212);
+}
+
+.footer h2 {
+    text-align:center;
+}
+
+.footer ul {
+    /* background-color: grey; */
+    text-align:center;
+}
+
+@media (min-width: 400px) {
+    .footer li a {
+        width: 90%;
+        height: auto;
+        display:flex;
+    }
+}
+
+
+/*Form*/
+  
+#subscribe form {
+    float: right;
+    margin-top: -50px;
+    margin-bottom: 10px;
+  }
+  
+#subscribe input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+  }
+
+#main * {
+    font-family: 'Courier New', Courier, monospace
+    
+}
